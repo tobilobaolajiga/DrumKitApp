@@ -1,0 +1,43 @@
+body{
+    background-image: url("background.jpg");
+    background-position: cover;
+    background-repeat: none;
+    background-size: cover;
+}
+.main-container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+    padding-top:300px;
+}
+.let {
+    color:white;
+    margin:0px;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+}
+.sound{
+    color:gold;
+    font-size:8px;
+    margin:0px;
+    text-align: center;
+    padding-top:5px;
+    letter-spacing: 1px;
+}
+.key{
+    border: 3px solid black;
+    padding: 7px 12px;
+    background-color:rgba(0, 0, 0, 0.4);
+    width:35px;
+    border-radius: 1px;
+    transition: all 0.07s;
+    border-radius:5px;  
+    text-shadow: 0 0 5px black; 
+}
+.playing{
+    transform:scale(1.1);
+    border-color:  #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
